@@ -1,0 +1,1 @@
+Los datos los sacamos de la siguiente pagina de la parte de salud , parte de salud mental https://www.gapminder.org/data/
