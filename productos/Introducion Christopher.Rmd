@@ -1,0 +1,21 @@
+---
+title: "Introduccion"
+author: "Christopher Weber"
+
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Hoy en día, como avanza el mundo, el nivel de estrés y preocupaciones que tiene la gente es muy grande. El hecho de que en un trabajo seamos desechados si no cumplimos, pone mucha presión en la gente y esto se puede reflejar en el número de suicidios por cada país.  
+  
+Quizás es un tema que en los últimos 20 años no había tomado mayor importancia, pero hoy trataremos de identificar las posibles explicaciones de la gran cantidad de suicidios en distintos países, para lo cual sacamos una base de datos de gapminder de el número de suicidios por año de distintos países del mundo, los cuales van desde 1990 hasta el año 2016.  
+  
+Los suicidios hace algunos años eran considera una muerte más solamente, pero como ahora el campo psicológico y psiquiátrico ha avanzado tanto, se le ha otorgado más importancia.  
+  
+ En este trabajo analizaremos si influye el lugar de nacimiento (país) en la probabilidad de suicidio, también identificaremos las características de estos países (donde los suicidios se presentan en mayor número), para poder conocer los factores influyentes en este acto e influir en su disminución.  
+    
+El primer objetivo es identificar el país que cuenta con mayor cantidad de suicidios en promedio Da lo largo su historia, luego de esto separamos los países por continente y damos una breve descripción de cada uno. El objetivo es conocer cuáles son los países con la mayor y menor tasa de suicidio por continente. Para esto, se analiza el promedio anual de suicidio en un periodo de 26 años. Una vez identificados los países, se analizan los factores económicos(como la jornada laboral ,tipo de economía)y sociales (dictadura , democracia) en los cuales se encuentra el país y continente, para ver influencia de estos en la tasa de suicidio.
